@@ -1,0 +1,14 @@
+package com.bmsp.bmsp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+
+public class BmspApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(BmspApplication.class, args);
+    }
+}
+
+

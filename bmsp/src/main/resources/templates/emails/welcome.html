@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Welcome to NextGen Finance Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f7f9fc;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1a3a8f 0%, #0d6efd 100%);
+            padding: 40px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .celebration {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        
+        .confetti {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: #f0f;
+            opacity: 0.8;
+            animation: fall 5s linear infinite;
+        }
+        
+        @keyframes fall {
+            0% { transform: translateY(-100px) rotate(0deg); }
+            100% { transform: translateY(600px) rotate(360deg); }
+        }
+        
+        .logo-container {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .logo {
+            width: 180px;
+            filter: drop-shadow(0 4px 12px rgba(0,0,0,0.15));
+        }
+        
+        .title {
+            color: white;
+            font-size: 32px;
+            font-weight: 700;
+            margin-top: 20px;
+            letter-spacing: 0.5px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            position: relative;
+            z-index: 2;
+        }
+        
+        .subtitle {
+            color: rgba(255,255,255,0.9);
+            font-size: 20px;
+            max-width: 80%;
+            margin: 10px auto 0;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .content {
+            padding: 40px;
+            color: #333;
+            text-align: center;
+        }
+        
+        .greeting {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #1a3a8f 0%, #0d6efd 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+        }
+        
+        .message {
+            font-size: 18px;
+            line-height: 1.7;
+            margin-bottom: 30px;
+            color: #555;
+        }
+        
+        .features {
+            text-align: left;
+            background: #f8f9ff;
+            border-radius: 16px;
+            padding: 25px;
+            margin: 30px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transform: perspective(1000px) rotateY(5deg);
+            transition: transform 0.5s ease;
+        }
+        
+        .features:hover {
+            transform: perspective(1000px) rotateY(0deg);
+        }
+        
+        .feature {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        
+        .feature:before {
+            content: "✓";
+            color: #28a745;
+            font-weight: bold;
+            font-size: 20px;
+            margin-right: 10px;
+            width: 30px;
+            height: 30px;
+            background: #e8f5e9;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .buttons {
+            margin: 40px 0;
+        }
+        
+        .button {
+            display: inline-block;
+            background: linear-gradient(135deg, #1a3a8f 0%, #0d6efd 100%);
+            color: white !important;
+            text-decoration: none;
+            padding: 16px 40px;
+            border-radius: 50px;
+            font-weight: 600;
+            margin: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 20px rgba(26, 58, 143, 0.3);
+            font-size: 18px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .button:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+            transition: 0.5s;
+        }
+        
+        .button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(26, 58, 143, 0.4);
+        }
+        
+        .button:hover:before {
+            left: 100%;
+        }
+        
+        .support {
+            background: #f0f7ff;
+            border-radius: 16px;
+            padding: 25px;
+            margin: 40px 0;
+        }
+        
+        .support-title {
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #1a3a8f;
+            font-size: 20px;
+        }
+        
+        .support-item {
+            margin: 15px 0;
+            font-size: 16px;
+        }
+        
+        .footer {
+            background: #1a202c;
+            color: #a0aec0;
+            text-align: center;
+            padding: 30px;
+            font-size: 14px;
+        }
+        
+        .badges {
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .badge {
+            display: inline-block;
+            vertical-align: middle;
+            max-width: 80px;
+        }
+        
+        .links {
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .links a {
+            color: #a0aec0;
+            text-decoration: none;
+        }
+        
+        .links a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+        
+        .social-container {
+            margin: 30px 0;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+        
+        .social-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .social-link img {
+            width: 60%;
+            height: 60%;
+            object-fit: contain;
+            filter: brightness(0) invert(1);
+            opacity: 0.8;
+            transition: all 0.3s ease;
+        }
+        
+        .social-link:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .social-link:hover img {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+        
+        .note {
+            margin-top: 20px;
+            opacity: 0.7;
+        }
+
+        .bank-image {
+            width: 100%;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="celebration" id="celebration"></div>
+            <div class="logo-container">
+                <img src="https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="NextGen Finance Hub" class="logo">
+                <h1 class="title">Your Financial Revolution Begins Now</h1>
+                <p class="subtitle">Experience banking reimagined for the digital age</p>
+            </div>
+        </div>
+        
+        <div class="content">
+            <img src="https://img.freepik.com/free-vector/mobile-banking-concept-illustration_114360-7883.jpg" alt="Digital Banking" class="bank-image">
+            
+            <h1 class="greeting">Congratulations, <span th:text="${fullName}">Alex</span>!</h1>
+            <p class="message">
+                You've successfully joined NextGen Finance Hub - where innovative banking meets your lifestyle.
+            </p>
+            
+            <div class="features">
+                <h3>Your Account Details:</h3>
+                <div class="feature">Digital Banking Access Activated</div>
+                <div class="feature">Secure Mobile App Ready</div>
+                <div class="feature">Virtual Debit Card Available</div>
+                <div class="feature">$0 Monthly Maintenance Fees</div>
+                <div class="feature">24/7 Fraud Monitoring</div>
+            </div>
+            
+            <div class="buttons">
+                <a th:href="${baseUrl} + '/dashboard'" class="button">Launch Your Dashboard</a>
+                <a th:href="${baseUrl} + '/mobile-app'" class="button">Download Mobile App</a>
+            </div>
+            
+            <div class="support">
+                <h3 class="support-title">24/7 Support</h3>
+                <div class="support-item">📞 +1 (800) NEXT-GEN</div>
+                <div class="support-item">✉️ concierge@nextgenfinancehub.com</div>
+                <div class="support-item">💬 Live Chat on our website</div>
+            </div>
+            
+            <p class="message">
+                <strong>What's Next?</strong><br>
+                Set up biometric login for faster access, explore our AI-powered financial insights,
+                and discover personalized investment options tailored just for you.
+            </p>
+        </div>
+        
+        <div class="footer">
+            <div class="badges">
+                <a href="https://www.fdic.gov/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/FDIC_logo.svg/1200px-FDIC_logo.svg.png" alt="FDIC Insured" class="badge">
+                </a>
+                <a href="https://www.ssl.com/" target="_blank">
+                    <img src="https://www.ssl.com/wp-content/uploads/2021/01/SSLcom-SSL-Secured-Site-Badge-256.png" alt="SSL Secured" class="badge">
+                </a>
+            </div>
+            
+            <p>&copy; 2025 NextGen Finance Hub | Member FDIC</p>
+            
+            <div class="links">
+                <a th:href="${baseUrl} + '/faq'">FAQ</a>
+                <a th:href="${baseUrl} + '/security'">Security Center</a>
+                <a th:href="${baseUrl} + '/terms'">Terms & Conditions</a>
+                <a th:href="${baseUrl} + '/privacy'">Privacy Policy</a>
+            </div>
+            
+            <div class="social-container">
+                <div class="social-links">
+                    <a href="https://twitter.com/NextGenFinanceHub" class="social-link" title="Twitter">
+                        <img src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt="Twitter">
+                    </a>
+                    <a href="https://www.linkedin.com/company/NextGenFinanceHub" class="social-link" title="LinkedIn">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://www.instagram.com/NextGenFinanceHub" class="social-link" title="Instagram">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
+                    </a>
+                    <a href="https://github.com/NextGenFinanceHub" class="social-link" title="GitHub">
+                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+                    </a>
+                </div>
+            </div>
+            
+            <p class="note">Please review our Terms & Conditions and Privacy Policy</p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const celebration = document.getElementById('celebration');
+            const colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff'];
+            
+            for (let i = 0; i < 150; i++) {
+                const confetti = document.createElement('div');
+                confetti.className = 'confetti';
+                confetti.style.left = Math.random() * 100 + '%';
+                confetti.style.animationDelay = Math.random() * 5 + 's';
+                confetti.style.animationDuration = (Math.random() * 3 + 3) + 's';
+                confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                confetti.style.width = (Math.random() * 10 + 5) + 'px';
+                confetti.style.height = (Math.random() * 10 + 5) + 'px';
+                celebration.appendChild(confetti);
+            }
+        });
+    </script>
+</body>
+</html>
