@@ -1,6 +1,4 @@
-Perfect 👍 I’ll expand your README with a **dedicated screenshot gallery (20 placeholders)** and a spot where you can later insert animated GIFs or previews of your **3D animations**.
 
-Here’s the upgraded `README.md`:
 
 ````markdown
 # 🌟 NextGen Finance Hub
