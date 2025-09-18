@@ -51,7 +51,7 @@ Here are **20 UI previews** of **NextGen Finance Hub** in action:
 
 | Screenshot | Preview |
 |------------|---------|
-| 📊  **Hme Page** | ![home](docs/screenshots/login.png) |
+| 📊  **Hme Page** | ![home](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
 | 🔐 **Login Page** | ![Login](docs/screenshots/login.png) |
 | 🏠 **User Dashboard** | ![Dashboard](docs/screenshots/dashboard.png) |
 | 🪪 **KYC Verification** | ![KYC](docs/screenshots/kyc.png) |
