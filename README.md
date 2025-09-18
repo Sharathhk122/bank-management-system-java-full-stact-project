@@ -51,6 +51,7 @@ Here are **20 UI previews** of **NextGen Finance Hub** in action:
 
 | Screenshot | Preview |
 |------------|---------|
+| 📊  **Hme Page** | ![home](docs/screenshots/login.png) |
 | 🔐 **Login Page** | ![Login](docs/screenshots/login.png) |
 | 🏠 **User Dashboard** | ![Dashboard](docs/screenshots/dashboard.png) |
 | 🪪 **KYC Verification** | ![KYC](docs/screenshots/kyc.png) |
