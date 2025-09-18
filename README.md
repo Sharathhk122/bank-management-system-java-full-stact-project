@@ -156,28 +156,6 @@ mvn spring-boot:run
 💼 Full-Stack Developer | 💡 Finance Tech Enthusiast
 
 🔗 Connect with me:
-[![GitHub](https://img.shields.io/badge/GitHub-000?logo=github)](https://github.com/your-username)
+[![GitHub](https://img.shields.io/badge/GitHub-000?logo=github)](https://github.com/sharathhk122)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0e76a8?logo=linkedin)](https://linkedin.com/in/your-profile)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter)](https://twitter.com/your-handle)
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License** – feel free to use and modify.
-
----
-
-⭐ If you like this project, **give it a star** on GitHub to support development!
-
-```
-
----
-
-👉 This gives you a **ready-to-use README.md** with:
-- ✅ 20 screenshots  
-- ✅ 1 animated demo GIF  
-- ✅ Full project description, setup guide, and structure  
-
-Do you want me to also format the **20 screenshots in a 2x2 grid gallery** (instead of a long table) so it looks more like a portfolio showcase?
-```
