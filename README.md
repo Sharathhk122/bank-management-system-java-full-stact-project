@@ -51,27 +51,30 @@ Here are **20 UI previews** of **NextGen Finance Hub** in action:
 
 | Screenshot | Preview |
 |------------|---------|
-| 📊  **Hme Page** | ![home](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
-| 🔐 **Login Page** | ![Login](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
-| 🏠 **User Dashboard** | ![Dashboard](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
-| 🪪 **KYC Verification** | ![KYC](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
-| 🏦 **Account Overview** | ![Accounts](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
-| 💳 **Loan Application** | ![Loan](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
+| 📊  **Home Page** | ![home](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
+| 📊  **About Page** | ![about](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(2).png) |
+| 📊  **service Page** | ![service](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(3).png) |
+| 📊  **contact Page** | ![contact](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(4).png) |
+| 🔐 **Login Page** | ![Login](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(5).png) |
+| 🏠 **User Dashboard** | ![Dashboard](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(8).png) |
+| 🪪 **KYC Verification** | ![KYC](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(9).png) |
+| 🏦 **Account Overview** | ![Accounts](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(6).png) |
+| 💳 **Loan Application** | ![Loan](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(13).png) |
 | 📅 **EMI Payment** | ![EMI](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
 | 🔑 **OTP Verification** | ![OTP](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
 | 💰 **Transaction History** | ![Transactions](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
-| 🛡️ **Admin Dashboard** | ![Admin Dashboard](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
+| 🛡️ **Admin Dashboard** | ![Admin Dashboard](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(16).png) |
 | 👥 **User Management** | ![Users](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
 | 📑 **PDF Report Generation** | ![PDF](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
 | 📊 **Excel Export** | ![Excel](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
 | ⚙️ **Profile Settings** | ![Profile](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
-| 🔔 **Notifications** | ![Notifications](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
-| 🌙 **Dark Mode** | ![Dark Mode](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
-| ☀️ **Light Mode** | ![Light Mode](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
-| 🌀 **3D Animation (Landing)** | ![3D Animation](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
-| 🚀 **Performance Analytics** | ![Analytics](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
-| 📱 **Mobile Responsive View** | ![Mobile](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
-| 🔒 **Security & Authentication** | ![Security](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
+| 🔔 **Transaction** | ![Transaction](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(15).png) |
+| 🌙 **loans** | ![loans](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(11).png) |
+| ☀️ **users** | ![users](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(17).png) |
+| 🌀 **Report Download** | ![Report Download](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(18).png) |
+| 🚀 **All Transaction** | ![All Transaction](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(19).png) |
+| 📱 **Loan Approve** | ![Loan Approve](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(20).png) |
+| 🔒 **Kyc Verfication** | ![Kyc Verfication](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(21).png) |
 
 ---
 
