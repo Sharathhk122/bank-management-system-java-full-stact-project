@@ -61,7 +61,8 @@ Here are **20 UI previews** of **NextGen Finance Hub** in action:
 | 🏦 **Account Overview** | ![Accounts](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(6).png) |
 | 💳 **Loan Application** | ![Loan](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(13).png) |
 | 📅 **EMI Payment** | ![EMI](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
-| 🔑 **OTP Verification** | ![OTP](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
+| 🔑 **OTP Verification** | ![OTP](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/otp.jpg) |
+| 🔑 **Welcome email** | ![OTP](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/welocome.jpg) |
 | 💰 **Transaction History** | ![Transactions](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
 | 🛡️ **Admin Dashboard** | ![Admin Dashboard](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(16).png) |
 | 👥 **User Management** | ![Users](https://github.com/Sharathhk122/bank-management-system-java-full-stact-project/blob/main/Screenshot%20(1).png) |
